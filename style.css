@@ -75,3 +75,36 @@ body {
     opacity: 1;
 
 }
+
+.Feedback_div {
+    margin: 0;
+    padding: 0;
+}
+
+#Feedback_p {
+    cursor: pointer; 
+    right: 1%;
+    position: absolute;
+    bottom: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+#Feedback_p::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(4, 217, 255);
+    transition: width .3s;
+}
+
+#Feedback_p:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+#Feedback_p:hover {
+    color: rgb(255, 255, 255);
+}

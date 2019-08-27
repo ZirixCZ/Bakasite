@@ -87,7 +87,7 @@ body {
     position: absolute;
     bottom: 89%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 26px;
+    font-size: 28px;
     color: rgba(255, 255, 255, 0.753);
 }
 
@@ -110,10 +110,10 @@ body {
 }
 
 .icon_div {
-    width: 150px;
+    width: 165px;
 }
 
 #discord_ico {
     cursor: pointer;
-    width: 150px;
+    width: 165px;
 }

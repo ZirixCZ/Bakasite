@@ -1,13 +1,14 @@
 @media screen and (max-width: 600px) {
     #Feedback_p {
-        bottom: 90%;
-      font-size: 21px;
-    }
-    #Feedback_p::after {
-        color: white;
         display: none;
     }
     .icon_div {
         display: none;
     }
+}
+
+
+
+
+
 }

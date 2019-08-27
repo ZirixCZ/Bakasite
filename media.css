@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+    #Feedback_p {
+        bottom: 90%;
+      font-size: 20px;
+    }
+    .icon_div {
+        display: none;
+    }
+}

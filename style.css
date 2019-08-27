@@ -1,5 +1,5 @@
 body {
-    background-image: url(./resources/wallpaper_single-plain-black-solid-color-one-colour-5120x2880-c-020617-f-24.png);
+    background-image: url(./resources/linear-red-gradient-black-5120x2880-c2-dc143c-000000-a-285-f-14.png);
     background-position: auto;
     background-size: auto;
 }
@@ -30,7 +30,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     box-sizing: border-box;
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background: linear-gradient(90deg, #200200, #850b0b, #200200, #200200);
     background-size: 400%;
     border-radius: 30px;
     z-index: 1;
@@ -61,7 +61,7 @@ body {
     Left: -5px;
     Right: -5px;
     z-index: -1;
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background: linear-gradient(90deg, #200200, #850b0b, #200200, #200200);
     background-size: 400%;
     border-radius: 40px;
     opacity: 0;
@@ -70,7 +70,7 @@ body {
 }
 
 #invite_button:hover:before {
-    animation: animate 8s linear infinite;
+    animation: animate 7s linear infinite;
     filter: blur(15px);
     opacity: 1;
 
@@ -85,9 +85,9 @@ body {
     cursor: pointer; 
     right: 1%;
     position: absolute;
-    bottom: 90%;
+    bottom: 89%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 26px;
     color: rgba(255, 255, 255, 0.753);
 }
 
@@ -95,8 +95,8 @@ body {
     content: "";
     display: block;
     width: 0;
-    height: 2px;
-    background: rgb(4, 217, 255);
+    height: 2.4px;
+    background: #850b0b;
     transition: width .3s;
 }
 
@@ -107,4 +107,13 @@ body {
 
 #Feedback_p:hover {
     color: rgb(255, 255, 255);
+}
+
+.icon_div {
+    width: 150px;
+}
+
+#discord_ico {
+    cursor: pointer;
+    width: 150px;
 }
